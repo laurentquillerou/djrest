@@ -1,0 +1,19 @@
+[project]
+name = "app"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "django-filter>=25.1",
+    "django-oidc-provider>=0.8.3",
+    "djangorestframework>=3.16.0",
+    "markdown>=3.8",
+    "opentelemetry-api>=1.32.1",
+]
+
+[dependency-groups]
+dev = [
+    "behave>=1.2.6",
+    "pytest>=8.3.5",
+    "pytest-django>=4.11.1",
+]
